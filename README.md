@@ -1,14 +1,12 @@
-# NLP_LLM
+NLP_LLM – AI Content Generator
 
-AI Content Generator
-
-A powerful web application that generates high-quality content using AI. Built with Flask and Bootstrap for a modern, responsive experience. Perfect for blogs, social media, marketing, and more.
+A powerful web application that generates high-quality content using AI. Built with Flask and Bootstrap, it provides a modern, responsive experience, ideal for blogs, social media, marketing, and more.
 
 Features
 
-⚡ AI-Powered Content Generation: Uses AI to create engaging and relevant content
+⚡ AI-Powered Content Generation: Creates engaging and relevant content using AI
 
-⚡ Modern UI: Clean, responsive design with Bootstrap
+⚡ Modern UI: Clean and responsive design with Bootstrap
 
 ⚡ Mobile Friendly: Works seamlessly on all devices
 
@@ -18,14 +16,18 @@ Features
 
 ⚡ Content Analytics: Word count, readability, and paragraph statistics
 
-⚡ Copy & Export: Easy content sharing, copying, or downloading
+⚡ Copy & Export: Easily copy or download generated content
 
 Tech Stack
 
 Backend: Flask (Python)
+
 Frontend: HTML5, CSS3, Bootstrap 5
-AI: OpenAI / Google Gemini API (depending on setup)
+
+AI: OpenAI GPT / Google Gemini API
+
 Styling: Custom CSS with gradients and animations
+
 Icons: Font Awesome
 
 Prerequisites
@@ -35,18 +37,14 @@ Python 3.7 or higher
 AI API key (Google Gemini API or OpenAI API key)
 
 Installation & Setup
-
-Clone or Download the Project
-
-# Using git
+1. Clone or Download the Project
+# Using Git
 git clone <repository-url>
 cd ai-content-generator
 
 # Or download and extract the project files
 
-
-Create Virtual Environment (Recommended)
-
+2. Create Virtual Environment (Recommended)
 # Create virtual environment
 python -m venv venv
 
@@ -56,13 +54,11 @@ venv\Scripts\activate
 # macOS/Linux:
 source venv/bin/activate
 
-
-Install Dependencies
-
+3. Install Dependencies
 pip install -r requirements.txt
 
+4. Set Up Environment Variables
 
-Set Up Environment Variables
 Create a .env file in the project root:
 
 # AI API key
@@ -72,9 +68,7 @@ API_KEY=your_actual_api_key_here
 FLASK_ENV=development
 FLASK_DEBUG=True
 
-
-Run the Application
-
+5. Run the Application
 python app.py
 
 
@@ -82,11 +76,10 @@ Open your browser at http://localhost:5000
 
 Project Structure
 ai-content-generator/
-├── Content_generator.py               
-├── requirements.txt     # Python dependencies
-├── .env                 # Environment variables
-├── README.md            # Project documentation
-
+├── Content_generator.py       # Main Python script
+├── requirements.txt           # Python dependencies
+├── .env                       # Environment variables
+├── README.md                  # Project documentation
 
 Usage
 
@@ -112,7 +105,7 @@ Example Prompts
 
 API Configuration
 
-Model: Google Gemini Pro or OpenAI GPT model
+Model: Google Gemini Pro or OpenAI GPT
 
 Enhanced Prompting: Automatically optimizes user prompts
 
@@ -122,7 +115,7 @@ Content Length: Generates 300–1000 word content
 
 Customization
 
-Styling: Edit static/style.css for colors, fonts, and layout
+Styling: Edit static/style.css to change colors, fonts, and layout
 
 Content Generation: Modify generate_content() in app.py to tweak prompts, content length, or style
 
@@ -142,7 +135,7 @@ Production Deployment
 
 Set FLASK_ENV=production
 
-Use Gunicorn or other WSGI server
+Use Gunicorn or another WSGI server
 
 Configure HTTPS and reverse proxy (Nginx recommended)
 
@@ -162,7 +155,7 @@ MIT License
 
 Support
 
-Check troubleshooting above
+Check troubleshooting section
 
 Review Flask and API documentation
 
