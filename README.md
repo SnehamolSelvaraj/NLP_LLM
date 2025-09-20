@@ -70,10 +70,8 @@ FLASK_ENV=development
 FLASK_DEBUG=True
 
 5. Run the Application
-python app.py
-
-
-Open your browser at http://localhost:5000
+python Content_generator.py
+it Open your browser
 
 ### Project Structure
 
