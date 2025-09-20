@@ -87,7 +87,7 @@ ai-content-generator/
 
 ### Usage
 
-Open the Application: Navigate to http://localhost:5000
+Open the Application
 
 Enter a Prompt: Type the topic or idea for content generation
 
