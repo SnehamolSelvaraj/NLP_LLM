@@ -2,7 +2,7 @@
 
 A powerful web application that generates high-quality content using AI. Built with Flask and Bootstrap, it provides a modern, responsive experience, ideal for blogs, social media, marketing, and more.
 
-Features
+####Features
 
 ⚡ AI-Powered Content Generation: Creates engaging and relevant content using AI
 
