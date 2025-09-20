@@ -7,11 +7,17 @@ A powerful web application that generates high-quality content using AI. Built w
 Features
 
 ⚡ AI-Powered Content Generation: Uses AI to create engaging and relevant content
+
 ⚡ Modern UI: Clean, responsive design with Bootstrap
+
 ⚡ Mobile Friendly: Works seamlessly on all devices
+
 ⚡ Fast & Lightweight: Quick content generation with minimal dependencies
+
 ⚡ Secure: API key management with environment variables
+
 ⚡ Content Analytics: Word count, readability, and paragraph statistics
+
 ⚡ Copy & Export: Easy content sharing, copying, or downloading
 
 Tech Stack
