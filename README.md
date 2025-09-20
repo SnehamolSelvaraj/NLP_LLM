@@ -1,4 +1,4 @@
-NLP_LLM – AI Content Generator
+# NLP_LLM – AI Content Generator
 
 A powerful web application that generates high-quality content using AI. Built with Flask and Bootstrap, it provides a modern, responsive experience, ideal for blogs, social media, marketing, and more.
 
@@ -38,6 +38,7 @@ AI API key (Google Gemini API or OpenAI API key)
 
 Installation & Setup
 1. Clone or Download the Project
+   
 # Using Git
 git clone <repository-url>
 cd ai-content-generator
