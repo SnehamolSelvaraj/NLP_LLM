@@ -76,10 +76,15 @@ python app.py
 Open your browser at http://localhost:5000
 
 ### Project Structure
+
 ai-content-generator/
+
 ├── Content_generator.py       # Main Python script
+
 ├── requirements.txt           # Python dependencies
+
 ├── .env                       # Environment variables
+
 ├── README.md                  # Project documentation
 
 ### Usage
